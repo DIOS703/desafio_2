@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="calcstyle.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child num-guardado numGuardado celeste"></div>
+        <div class="child signo celeste Signo"></div>
+        <div  class="child num-actual numActual celeste"> 0</div>
+        <div class="child numeros">
+            <div class="container-numeros">
+                <button class="boton" type="button">7</button>
+                <button class="boton" type="button">8</button>
+                <button class="boton" type="button">9</button>
+                <button class="boton signos" data-action="dividir" type="button">÷</button>
+                <button class="boton signos" data-action="cambio" type="button">+/-</button>
+                <button class="boton" type="button">4</button>
+                <button class="boton" type="button">5</button>
+                <button class="boton" type="button">6</button>
+                <button class="boton signos" data-action="multiplicar" type="button"> x </button>
+                <button class="boton cancelar" data-action="borrar" type="button"> <span class="material-icons">cancel</span> </button>
+                <button class="boton" type="button">1</button>
+                <button class="boton" type="button">2</button>
+                <button class="boton" type="button">3</button>
+                <button class="boton signos" data-action="restar" type="button"> - </button>
+                <button class="botonn igualdad" data-action="igual" type="button">=</button>
+                <button class="boton" data-action="borrartodo" type="button">c</button>
+                <button class="boton" type="button">0</button>
+                <button class="boton" data-action="decimal" type="button">.</button>
+                <button class="boton signos"  data-action="sumar" type="button"> +</span> </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>

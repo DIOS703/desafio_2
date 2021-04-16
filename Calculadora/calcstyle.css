@@ -1,0 +1,79 @@
+body{
+	margin-top: 100px;
+    background-color: white;
+	display: flex;
+	justify-content: center;
+    font-family: fantasy !important;
+}
+.container{
+    background-color:#161A24;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    
+}
+.child{
+    display: flex;
+    align-self: center;
+    grid-row: span 1;
+}
+.numeros{
+    background-color: #232938;
+    grid-row: span 5 !important;
+    border-radius: 10px;
+}
+.container-numeros{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 30px;
+    padding: 15px;
+}
+.igualdad{
+    grid-row: span 2 !important;
+    background-color: cyan !important;
+    color: #232938 !important;
+}
+.botonn{
+    font-family: fantasy !important;
+    padding: 8px;
+    background-color: #232938;
+    border-style: solid;
+    width: 50px;
+    border-color: #232938;
+    color: #8997BB;
+    border-radius: 85px;
+    outline: none;
+}
+.boton{
+    font-family: fantasy !important;
+    padding: 8px;
+    height: 50px;
+    width: 50px;
+    background-color: #232938;
+    border-style: solid;
+    border-color: #232938;
+    color: #8997BB;
+    border-radius: 85px;
+    outline: none;
+}
+.celeste{
+    color: cyan;
+}
+.num-guardado, .signo, .num-actual {
+    padding-right: 15px;
+    display: flex;
+    justify-self: flex-end;
+}
+.signos{
+    background-color: #323B4C;
+}
+.cancelar{
+    background-color: #CD2C57;
+    color: rgb(236, 229, 229) !important;
+}
